@@ -1,0 +1,52 @@
+/* Estilos para o big-card */
+.big-card {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Estilos para a imagem no big-card */
+.big-card-img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px; /* Espaçamento à direita da imagem */
+}
+
+/* Estilos para o conteúdo do big-card */
+.big-card-content {
+  flex: 1; /* O conteúdo do big-card ocupa todo o espaço disponível na largura */
+}
+
+/* Estilos para o título do big-card */
+.big-card-title {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px; /* Espaçamento inferior do título */
+  font-weight: bold;
+}
+
+/* Estilos para o texto do big-card */
+.big-card-text {
+  font-size: 16px;
+}
+
+/* Estilos para o botão no big-card */
+.btn-secondary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px; /* Espaçamento superior do botão */
+}
+
+.btn-secondary:hover {
+  background-color: #0056b3; /* Cor de destaque ao passar o mouse sobre o botão */
+  border-color: #0056b3;
+}

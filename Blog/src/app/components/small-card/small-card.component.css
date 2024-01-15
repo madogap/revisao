@@ -1,0 +1,55 @@
+/* Estilos de base para o cartão */
+.card {
+  width: 100%;
+  max-width: 18rem;
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para a imagem no topo do cartão */
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para o corpo do cartão (card-body) */
+.card-body {
+  background-color: #f8f9fa; /* Cor de fundo do corpo do cartão */
+  padding: 10px;
+}
+
+/* Estilos para o título do cartão */
+.card-title {
+  font-weight: bold;
+  font-size: 1.25rem; /* Tamanho de fonte maior para telas maiores */
+}
+
+/* Estilos para o texto do cartão */
+.card-text {
+  font-size: 1rem; /* Tamanho de fonte padrão */
+}
+
+/* Estilos para o botão no cartão */
+.btn-primary {
+  background-color: #007bff; /* Cor de fundo do botão primário */
+  border-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Cor de destaque ao passar o mouse sobre o botão */
+  border-color: #0056b3;
+}
+
+/* Media Query para telas menores (tamanho de tablet e dispositivos móveis) */
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%; /* O cartão ocupará 100% da largura da tela */
+  }
+
+  .card-title {
+    font-size: 1.5rem; /* Tamanho de fonte maior para telas menores */
+  }
+}
